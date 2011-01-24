@@ -1,0 +1,4 @@
+#GlassFish v3 Prelude
+#Sun Jan 16 10:39:48 EST 2011
+org.eclipse.jst.jee.server\:ch01=C\:\\glassfishv3\\glassfish\\domains\\domain1\\eclipseApps\\ch01
+org.eclipse.jst.jee.server\:TestAgain=C\:\\glassfishv3\\glassfish\\domains\\domain1\\eclipseApps\\TestAgain

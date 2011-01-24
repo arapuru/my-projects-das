@@ -1,0 +1,25 @@
+package com.test.spring.map;
+
+import java.util.Map;
+
+public class Test {
+	
+	private Map map;
+	
+	public Test()
+	{
+		
+	}
+	public Test(Map map, Set set)
+	{
+		this.map = map;
+		this.set  =set;
+	}
+	
+	public void printMap(){
+		if (map == null) System.out.println("map is null");
+		if (map.isEmpty()) System.out.println("map is empty");
+		System.out.println(map);
+	}
+
+}

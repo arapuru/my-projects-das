@@ -1,0 +1,11 @@
+package com.test.spring.dao;
+
+public class SequenceDaoImpl implements SequenceDao {
+
+	@Override
+	public String getSequence() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
