@@ -1,0 +1,9 @@
+package com.test.spring.service;
+
+import com.test.spring.dao.SequenceDao;
+
+public class SequenceServiceImpl implements SequenceService 
+{
+	private SequenceDao sequenceDao;
+	
+}

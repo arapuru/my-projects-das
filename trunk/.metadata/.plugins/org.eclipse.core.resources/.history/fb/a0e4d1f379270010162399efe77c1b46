@@ -1,0 +1,21 @@
+package com.test.spring.service;
+
+import org.springframework.stereotype.Component;
+
+import com.test.spring.dao.SequenceDao;
+
+@Component(value=SequenceService)
+public class SequenceServiceImpl implements SequenceService 
+{
+	private SequenceDao sequenceDao;
+
+	public void setSequenceDao(SequenceDao sequenceDao) {
+		this.sequenceDao = sequenceDao;
+	}
+	
+	public String getSequence()
+	{
+		return sequenceDao.getSequence();
+	}
+	
+}

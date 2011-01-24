@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans.xsd
+	   http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+		
+		<context:annotation-config />
+		
+		<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor">
+		<property name="requiredAnnotationType"> <value>com.test.spring.map.Mandate</value></property>
+		</bean>
+		
+		
+		
+	<bean id="test" class="com.test.spring.map.Test" abstract="true" >
+		<constructor-arg name="map">
+			<map>
+				<entry key="a" value="b"/>
+				<entry key="a1" value="b"/>
+				<entry key="a2" value="b"/>
+				<entry key="a3" value="b"/>
+
+			</map>
+		</constructor-arg>
+		<property name="string" value="str"></property>
+		<property name="mandatedString"><value></value></property>
+	</bean>
+	
+	
+	<bean id="test1" class="com.test.spring.map.Test" parent="test">
+		<constructor-arg name="map">
+			<map merge="true">
+			 <entry key="bx" value="cx" />
+			</map>
+		</constructor-arg>
+	</bean>
+	
+	
+	<bean id="test2" class="com.test.spring.map.Test" parent="test1">
+
+		
+		<constructor-arg name="set">
+			<set>
+				<value>a</value>
+				<value>b</value>
+			</set>
+		</constructor-arg>
+		
+	</bean>
+
+	<bean id="test3" class="com.test.spring.map.Test" parent="test2" >
+		<constructor-arg name="map">
+			<map merge="true">
+				<entry key="a" value="b"/>
+				<entry key="a1" value="b"/>
+				<entry key="a2" value="b"/>
+				<entry key="a3" value="b"/>
+
+			</map>
+		</constructor-arg>
+		
+		<constructor-arg name="set">
+			<set merge="true">
+				<value>a</value>
+				<value>c</value>
+			</set>
+		</constructor-arg>
+		
+	</bean>
+
+	
+</beans>

@@ -1,0 +1,16 @@
+package com.test.spring.map;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
+public class TestReadMap {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Test test=ClassPathXmlApplicationContext();
+	}
+
+}

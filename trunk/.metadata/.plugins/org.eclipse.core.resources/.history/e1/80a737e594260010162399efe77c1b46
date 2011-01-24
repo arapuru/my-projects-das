@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="test" class="com.test.spring.map.Test" >
+		<constructor-arg name="map">
+			<map>
+				<entry key="a" value="b"/>
+				<entry key="a1" value="b"/>
+				<entry key="a2" value="b"/>
+				<entry key="a3" value="b"/>
+
+			</map>
+		</constructor-arg>
+	</bean>
+	
+	
+	<bean id="test1" class="com.test.spring.map.Test" parent="test">
+		<constructor-arg name="map">
+			<map merge="true">
+			 <entry key="b" value="c" />
+			</map>
+		</constructor-arg>
+	</bean>
+	
+</beans>

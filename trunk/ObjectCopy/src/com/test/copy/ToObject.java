@@ -1,0 +1,62 @@
+package com.test.copy;
+
+import java.sql.Date;
+
+public class ToObject {
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAge() {
+		return age;
+	}
+
+	public void setAge(String age) {
+		this.age = age;
+	}
+
+	private String name;
+	
+	private String age;
+	
+	private String dob;
+	
+	private Date datePass;
+	
+	private Long v1;
+
+	public String getDob() {
+		return dob;
+	}
+
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+
+	public Date getDatePass() {
+		return datePass;
+	}
+
+	public void setDatePass(Date datePass) {
+		this.datePass = datePass;
+	}
+	
+	public void setDatePass(String datePass) {
+		
+	}
+
+	public Long getV1() {
+		return v1;
+	}
+
+	public void setV1(Long v1) {
+		this.v1 = v1;
+	}
+	
+	
+}

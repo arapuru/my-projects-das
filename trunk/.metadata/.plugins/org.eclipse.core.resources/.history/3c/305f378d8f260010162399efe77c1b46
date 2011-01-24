@@ -1,0 +1,18 @@
+package com.test.spring.map;
+
+import java.util.Map;
+
+public class Test {
+	
+	private Map map;
+	
+	public Test(Map map)
+	{
+		this.map = map;
+	}
+	
+	public void printMap(){
+		System.out.println(map);
+	}
+
+}

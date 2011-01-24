@@ -1,0 +1,26 @@
+package com.test.copy;
+
+import java.lang.reflect.InvocationTargetException;
+import java.sql.Date;
+
+import org.apache.commons.beanutils.BeanUtils;
+
+public class CopyObject {
+
+	/**
+	 * @param args
+	 * @throws InvocationTargetException 
+	 * @throws IllegalAccessException 
+	 */
+	public static void main(String[] args) throws Exception {
+		FromObject f=new FromObject();
+		ToObject t=new ToObject();
+		f.setName("names");
+		f.setAge(123);
+		f.setDob(new Date(2011,1,18));
+		BeanUtils.copyProperties(t, f);
+		System.out.println(t.getName()+","+t.getAge());
+
+	}
+
+}

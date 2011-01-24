@@ -1,0 +1,15 @@
+package com.test.spring.dao;
+
+import java.util.HashMap;
+
+public class SequenceDaoImpl implements SequenceDao {
+
+	private BigDecimal  seq=new BigDecimal(0);
+	
+	@Override
+	public String getSequence() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

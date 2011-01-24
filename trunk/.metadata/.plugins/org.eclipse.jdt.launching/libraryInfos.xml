@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\Java\jdk1.6.0_22" version="1.6.0_22">
+<bootpath>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jdk1.6.0_22\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\bea1033\jrockit_160_17_R28.0.0-679" version="1.6.0_17">
+<bootpath>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\lib\resources.jar"/>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\lib\rt.jar"/>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\lib\sunrsasign.jar"/>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\lib\jsse.jar"/>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\lib\jce.jar"/>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\lib\charsets.jar"/>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\bea1033\jrockit_160_17_R28.0.0-679\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\Java\jre6" version="1.6.0_20">
+<bootpath>
+<entry path="C:\Program Files\Java\jre6\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre6\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre6\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre6\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
