@@ -10,6 +10,8 @@
 		
 		<context:annotation-config />
 		
+		<bean  class="com.test.spring.map.BeanPostProcessor"></bean>
+		
 		<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor">
 		<property name="requiredAnnotationType"> <value>com.test.spring.map.Mandate</value></property>
 		</bean>
